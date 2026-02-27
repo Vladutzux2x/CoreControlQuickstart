@@ -30,6 +30,9 @@ public class TeleOp extends OpMode {
         servo0.setPosition(0.5);
         servo1.setPosition(1.0);
 
+        servo0.setSpeed(1);
+        servo1.setSpeed(0.5);
+
         motor0.setDirection(DcMotorSimple.Direction.REVERSE);
         motor1.setDirection(DcMotorSimple.Direction.FORWARD);
 
